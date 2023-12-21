@@ -3,7 +3,9 @@
   },
   "compilerOptions": {
     "strict": true,
-    "noUncheckedIndexedAccess": true
+    "noUncheckedIndexedAccess": true,
+    "jsx": "react-jsx",
+    "jsxImportSource": "react"
   },
   "lint": {
     "rules": {
@@ -19,5 +21,11 @@
     "lineWidth": 80,
     "semiColons": false,
     "singleQuote": true
+  },
+  "imports": {
+    "preact": "https://esm.sh/preact@10.19.3",
+    "preact/": "https://esm.sh/preact@10.19.3/",
+    "482f-utils/": "/home/normal/git/482f-utils/deno/",
+    "rsib-type": "https://raw.githubusercontent.com/482F/rsib/master/type.ts"
   }
 }
